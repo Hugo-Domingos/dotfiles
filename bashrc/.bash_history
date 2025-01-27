@@ -1,212 +1,3 @@
-clear
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-eeee
-clear
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-exit 
-terminator -l apus
-tese
-cd captures
-scp nap@10.0.23.98:wlan0.pcap .
-wireshark wlan0.pcap &
-exit
-sudo tailscale up --accept-routes
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-sudo tailscale down
-exit
-terminator -l apus
-exit
-terminator -l apus
-exit 
-terminator -l apus
-exit
-ssh hugo@10.0.22.157
-exit 
-sudo tailscale up --accept-routes
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-clear
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-clear
-terminator -l apus
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-terminator -l apus
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh hugo@10.0.22.157
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-ssh hugo@10.0.22.157
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-terminator -l apus
-sudo tailscale down
-terminator -l apus
-sudo tailscale down
-ssh hugo@10.0.22.157
-exit
-sudo tailscale down
-exit
-sudo tailscale up --accept-routes
-exit
-terminator -l apus
-exit
-terminator -l apus
-exit
-ssh hugo@10.0.22.157
-exit
-terminator -l apus
-exit
-sudo tailscale up --accept-routes
-ssh hugo@10.0.22.157
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-top
-clear
-top
-clear
-ssh hugo@10.0.22.157
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh hugo@10.0.22.157
-terminator -l apus
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-ssh hugo@10.0.22.157
-terminator -l apus
-ssh hugo@10.0.22.157
-exit 
-terminator -l apus
-terminator -l apus
-terminator -l apus
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-terminator -l apus
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-clear
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-sudo tailscale down
-sudo tailscale down
-terminator -l apus
-terminator -l apus
-sudo tc qdisc add dev wlan0 root netem loss 10%
-exit
-terminator -l apus
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-clear
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-ssh-keygen -f "/home/hugo/.ssh/known_hosts" -R "[10.0.22.157]:8101"
-ssh-onos-lab
-exit
-sudo tailscale down
-sudo tailscale down
-exit 
-javac Main.java 
-java Main 
-javac Main.java 
-java Main 
-vim
-clear
-tese
-mkdir let_app
-cd let_app/
-nvim
-cd .. 
-mv let_app/ LetApp
-ls 
-cd LetApp/
-nvim
-exit
-sudo tailscale down
-exit
-java LetApp 
-exit
-java LetApp 
-exity
-exit
-javac LetApp.java 
-java LetApp 
-javac LetApp.java 
-java LetApp 
-javac LetApp.java 
-java LetApp 
-javac LetApp.java 
-java LetApp 
 javac LetApp.java 
 clear
 java LetApp 
@@ -622,4 +413,88 @@ exit
 tmux
 exit 
 nvim
+exit 
+tmux
+cd dotfiles/
+stow bashrc
+sudo rm ~/.bashrc 
+sudo rm ~/.bash_history 
+sudo rm ~/.bash_logout 
+stow bashrc
+clear
+exit 
+cd dotfiles/
+ls 
+cd bashrc/
+ls 
+ls -la 
+vim .bash_profile 
+vim .bashrc 
+exit 
+nvim 
+vim .bashrc 
+exit 
+zsh
+cd dotfiles/
+git pull
+stow oh-my-zsh
+exit 
+zsh
+clear
+ll
+cd .oh-my-zsh/
+ls 
+ls -la 
+cd ..
+cd dotfiles/
+cd oh-my-zsh/
+ls 
+ls -la
+cd .oh-my-zsh/
+ls 
+ls -la
+cd ..
+cd
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ls 
+ls -la 
+cd .oh-my-zsh/
+ls 
+ls -la 
+cd ..
+sudo rm -rf .oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+zsh
+npm install --global pure-prompt
+sudo apt install npm
+npm install --global pure-prompt
+sudo npm install --global pure-prompt
+zsh
+exit 
+zsh
+vim .zshrc
+zsh
+vim .zshrc
+zsh
+exit
+exit 
+bash
+zsh
+vim .zshrc
+zsh
+exit 
+sudo apt install terminator
+cd dotfiles/
+stow terminator/
+exit 
+cd .oh-my-zsh/themes/
+ls 
+vim oxide.zsh-theme
+exit 
+exit 
+exit 
+exit 
+exit 
 exit 

@@ -7,8 +7,7 @@
 [profiles]
   [[default]]
     background_color = "#1e1e1e"
-    cursor_color = "#bbbbbb"
-    font = JetBrains Mono NL Medium 10
+    font = JetBrainsMonoNL Nerd Font Propo 10
     foreground_color = "#e6d4a3"
     show_titlebar = False
     scrollback_lines = 100000
@@ -16,7 +15,6 @@
     use_system_font = False
   [[default_3]]
     background_color = "#212121"
-    cursor_color = "#d0d0d0"
     font = JetBrains Mono NL Medium 10
     foreground_color = "#d0d0d0"
     show_titlebar = False
@@ -24,7 +22,6 @@
     palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
     use_system_font = False
   [[default_2]]
-    cursor_color = "#bbbbbb"
     font = JetBrains Mono NL Medium 10
     foreground_color = "#eeeeec"
     show_titlebar = False
@@ -33,7 +30,6 @@
     use_system_font = False
   [[default_0]]
     background_color = "#1c1c1c"
-    cursor_color = "#e2bbef"
     font = MesloLGS NF 10
     foreground_color = "#ddeedd"
     show_titlebar = False
@@ -42,7 +38,6 @@
     use_system_font = False
   [[default_1]]
     background_color = "#353a44"
-    cursor_color = "#d9d9d9"
     foreground_color = "#d9d9d9"
     show_titlebar = False
     palette = "#151515:#bc5653:#909d63:#ebc17a:#6a8799:#b06698:#c9dfff:#d9d9d9:#636363:#bc5653:#a0ac77:#ebc17a:#7eaac7:#b06698:#acbbd0:#f7f7f7"
