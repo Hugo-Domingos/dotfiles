@@ -1,12 +1,17 @@
 return {
-  {
-    "folke/snacks.nvim",
-    opts = {
-      -- dashboard = {enabled = false},
-      -- scratch = {enabled = false},
-      -- terminal = {enabled = false},
-      -- scroll = {enabled = false},
-      indent = { enabled = false },
-    },
-  },
+	{
+		"folke/snacks.nvim",
+		priority = 1000,
+		lazy = false,
+		config = function()
+			require("snacks").setup({
+				bufdelete = { enabled = true },
+				terminal = { enabled = true },
+				input = { enabled = true },
+				picker = { enabled = true },
+				notifier = { enabled = true, timeout = 3000 },
+				dim = { enabled = true },
+			})
+		end
+	},
 }

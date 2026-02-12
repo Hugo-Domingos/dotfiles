@@ -1,0 +1,1 @@
+{"brokers": {"localhost": {"host": "localhost", "port": 1883, "topics": ["test/topic"], "name": "localhost"}, "apu": {"host": "10.0.25.196", "port": 1883, "topics": ["vanetza/time/cam_full", "vanetza/in/cam_full"], "name": "apu"}}}

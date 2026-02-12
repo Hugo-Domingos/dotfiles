@@ -19,4 +19,14 @@ alias td='sudo tailscale down'
 
 alias dns='sudo bash ~/cp-dns.sh'
 
-alias idea='/opt/idea-IC-213.7172.25/bin/idea.sh &'
+alias picador='ssh nap@10.0.22.217'
+
+alias dev='bash ~/Tese/scripts/tmux-onos-dev.sh'
+
+alias 215='ssh nap@10.0.23.236'
+alias 117='ssh nap@10.0.23.150'
+alias 111='ssh nap@10.0.23.109'
+alias 100='ssh nap@10.0.23.141'
+alias vm='ssh nap@10.0.22.118'
+
+alias mqtt='open -n -a "MQTT Explorer"'
