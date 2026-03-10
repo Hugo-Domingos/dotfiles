@@ -1,0 +1,36 @@
+[general]
+import = [
+ # "~/.config/alacritty/themes/themes/alacritty_aquarium.toml"
+ # "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+ "~/.config/alacritty/themes/themes/kanso_zen.toml"
+]
+
+[env]
+# TERM = "xterm-256color"
+# TERM = "screen-256color"
+[window]
+padding.x = 10
+padding.y = 10
+decorations = "ButtonLess"
+
+# opacity = 0.8
+# blur = true
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+# normal.family = "ZedMono Nerd Font"
+# normal.family = "BlexMono Nerd Font"
+# normal.family = "CommitMono Nerd Font"
+size = 14
+
+[scrolling]
+history = 100000
+
+[colors.primary]
+# background = "0x080808"  # Black background
+# foreground = "0xffffff"  # White text (optional)
+# foreground = "0x080808"  # Black text
+# background = "0xffffff"  # White background
+
