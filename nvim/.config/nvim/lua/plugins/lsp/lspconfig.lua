@@ -237,6 +237,11 @@ return {
 					[vim.diagnostic.severity.INFO] = " ",
 				},
 			},
+			virtual_text = true,
+			-- virtual_lines = true,
+			virtual_lines = {
+				current_line = true,
+			}
 		})
 
 		vim.lsp.config("*", {
@@ -304,5 +309,10 @@ return {
 				},
 			},
 		})
+
+		vim.lsp.config("clangd", {
+			cmd = require("devcontainers").lsp_cmd({ "clangd", "--background-index" })
+		})
+		vim.lsp.enable("clangd")
 	end,
 }

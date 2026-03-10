@@ -28,3 +28,7 @@ local opts = { noremap = true, silent = false }
 
 -- To reload neovim config
 vim.keymap.set("n", "<leader>x", ":.lua<CR>")
+
+-- vim.opt.guicursor = "n-v-i-c:block-Cursor/lCursor"
+vim.opt.guicursor =
+"n-v-i-c:block-Cursor,n:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"

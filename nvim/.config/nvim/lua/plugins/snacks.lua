@@ -9,8 +9,9 @@ return {
 				terminal = { enabled = true },
 				input = { enabled = true },
 				picker = { enabled = true },
-				notifier = { enabled = true, timeout = 3000 },
+				-- notifier = { enabled = true, timeout = 3000 },
 				dim = { enabled = true },
+				indent = { enabled = true },
 			})
 		end
 	},

@@ -31,7 +31,7 @@ return {
 				"lua_ls",
 				"pyright",
 				"java_language_server",
-				"clangd",
+				-- "clangd",
 				"gopls",
 			},
 			automatic_installation = true,

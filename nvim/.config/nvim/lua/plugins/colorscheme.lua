@@ -1,51 +1,51 @@
 return {
 
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			require("catppuccin").setup({
-				flavour = "mocha", -- latte, frappe, macchiato, mocha
-				background = {
-					light = "latte",
-					dark = "mocha",
-				},
-				transparent_background = true,
-				integrations = {
-					native_lsp = {
-						enabled = true,
-						virtual_text = {
-							errors = "italic",
-							hints = "italic",
-							warnings = "italic",
-							information = "italic",
-						},
-						underlines = {
-							errors = "underline",
-							hints = "underline",
-							warnings = "underline",
-							information = "underline",
-						},
-					},
-				},
-			})
-			vim.cmd.colorscheme("catppuccin")
-		end,
-	},
-
-
 	-- {
-	-- 	"sainnhe/gruvbox-material",
+	-- 	"catppuccin/nvim",
+	-- 	name = "catppuccin",
+	-- 	lazy = false,
 	-- 	priority = 1000,
 	-- 	config = function()
-	-- 		vim.g.gruvbox_material_transparent_background = "1"
-	-- 		vim.g.gruvbox_material_enable_italic = "1"
-	-- 		vim.g.gruvbox_material_style = "original"
-	-- 		vim.cmd.colorscheme("gruvbox-material")
+	-- 		require("catppuccin").setup({
+	-- 			flavour = "mocha", -- latte, frappe, macchiato, mocha
+	-- 			background = {
+	-- 				light = "latte",
+	-- 				dark = "mocha",
+	-- 			},
+	-- 			transparent_background = true,
+	-- 			integrations = {
+	-- 				native_lsp = {
+	-- 					enabled = true,
+	-- 					virtual_text = {
+	-- 						errors = "italic",
+	-- 						hints = "italic",
+	-- 						warnings = "italic",
+	-- 						information = "italic",
+	-- 					},
+	-- 					underlines = {
+	-- 						errors = "underline",
+	-- 						hints = "underline",
+	-- 						warnings = "underline",
+	-- 						information = "underline",
+	-- 					},
+	-- 				},
+	-- 			},
+	-- 		})
+	-- 		vim.cmd.colorscheme("catppuccin")
 	-- 	end,
 	-- },
+
+
+	{
+		"sainnhe/gruvbox-material",
+		priority = 1000,
+		config = function()
+			vim.g.gruvbox_material_transparent_background = "1"
+			vim.g.gruvbox_material_enable_italic = "1"
+			vim.g.gruvbox_material_style = "original"
+			vim.cmd.colorscheme("gruvbox-material")
+		end,
+	},
 
 	-- {
 	-- 	"rose-pine/neovim",
@@ -55,6 +55,9 @@ return {
 	-- 			styles = {
 	-- 				transparency = true,
 	-- 			},
+	-- 			highlight_groups = {
+	-- 				Cursor = { fg = '#aaaaaa', bg = '#aaaaaa' }
+	-- 			}
 	-- 		})
 	-- 		vim.cmd("colorscheme rose-pine")
 	-- 	end,

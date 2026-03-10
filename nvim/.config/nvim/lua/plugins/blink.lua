@@ -36,15 +36,17 @@ return {
 
 			completion = {
 				documentation = {
+					auto_show = true,
+					auto_show_delay_ms = 100,
 					window = {
 						border = "none",
-						winblend = 15,
+						-- winblend = 100,
 					},
 				},
 				menu = {
 					draw = { treesitter = { "lsp" } },
 					border = "none",
-					winblend = 15,
+					-- winblend = 100,
 				},
 			},
 			appearance = {
@@ -56,8 +58,15 @@ return {
 				completion = {
 					menu = {
 						auto_show = true
-					}
+					},
+					-- window = {
+					-- 	border = "none",
+					-- 	winblend = 100,
+					-- }
 				}
+			},
+			signature = {
+				enabled = true,
 			},
 		},
 	}
